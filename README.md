@@ -6,14 +6,14 @@ This notebook demonstrates how to build a machine-learning model to detect fake 
 
 ## Overview & Introduction
 
-The notebook uses a dataset of news articles labeled as real or fake. It preprocesses the text data, extracts features using TF-IDF, trains a Logistic Regression model, and evaluates its performance.
+The notebook uses a dataset of news articles labelled as real or fake. It preprocesses the text data, extracts features using TF-IDF, trains a Logistic Regression model, and evaluates its performance.
 
 ## Steps
 
 1. **Data Acquisition:**
    - Download the `train.csv` dataset from the following link:
      [https://www.kaggle.com/c/fake-news/data?select=train.csv](https://www.kaggle.com/c/fake-news/data?select=train.csv)
-   - Upload the downloaded `train.csv` file to your Colab environment.
+   - Upload the downloaded `train.csv` file to the Colab environment linked above.
 
 2. **Data Loading and Preprocessing:**
    - Loads the news dataset from the CSV file.
