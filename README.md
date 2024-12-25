@@ -34,6 +34,17 @@ The notebook uses a dataset of news articles labelled as real or fake. It prepro
 6. **Prediction:**
    - Demonstrates how to use the trained model to predict whether a new news article is real or fake.
 
+## Dataset Description
+
+- **train.csv**: A full training dataset with the following attributes:
+  - `id`: unique id for a news article  
+  - `title`: the title of a news article  
+  - `author`: author of the news article  
+  - `text`: the text of the article; could be incomplete  
+  - `label`: a label that marks the article as potentially unreliable:  
+    - `1`: unreliable  
+    - `0`: reliable  
+
 ## Dependencies
 
 - Python 3
