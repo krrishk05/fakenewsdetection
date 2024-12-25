@@ -10,50 +10,42 @@ The notebook uses a dataset of news articles labeled as real or fake. It preproc
 
 ## Steps
 
-1. **Data Loading and Preprocessing:**
+1. **Data Acquisition:**
+   - Download the `train.csv` dataset from the following link:
+     [https://www.kaggle.com/c/fake-news/data?select=train.csv](https://www.kaggle.com/c/fake-news/data?select=train.csv)
+   - Upload the downloaded `train.csv` file to your Colab environment.
 
-   - Loads the news dataset from a CSV file.
-
+2. **Data Loading and Preprocessing:**
+   - Loads the news dataset from the CSV file.
    - Handles missing values.
-
    - Combines author and title for content.
-
    - Applies stemming to reduce words to their root form.
 
-2. **Feature Extraction:**
-
+3. **Feature Extraction:**
    - Converts text data to numerical features using TF-IDF.
 
-3. **Model Training:**
-
+4. **Model Training:**
    - Splits the data into training and testing sets.
-
    - Trains a Logistic Regression model on the training data.
 
-4. **Evaluation:**
-
+5. **Evaluation:**
    - Calculates the accuracy of the model on both training and testing data.
 
-5. **Prediction:**
-
+6. **Prediction:**
    - Demonstrates how to use the trained model to predict whether a new news article is real or fake.
 
 ## Dependencies
 
 - Python 3
-
 - Libraries: numpy, pandas, re, nltk, sklearn
 
 ## Usage
 
-1. Upload the `train.csv` dataset to the Colab environment.
-
+1. Follow the instructions in the "Data Acquisition" step to download and upload the dataset.
 2. Run all the cells in the notebook sequentially.
-
 3. Observe the accuracy scores and prediction results.
 
 ## Note
 
 - The model's accuracy is indicative of its performance on the given dataset.
-
 - Further improvements can be explored by using different models, feature engineering techniques, and hyperparameter tuning.
